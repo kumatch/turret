@@ -1,0 +1,30 @@
+{
+  "author": "Yosuke Kumakura <kumatch@gmail.com>",
+  "name": "turret",
+  "description": "ORM for Node",
+  "version": "0.1.0",
+  "main": "./lib/turret.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kumatch/turret.git"
+  },
+  "github": "https://github.com/kumatch/turret",
+  "dependencies": {
+    "async": "~0.2.9",
+    "lodash": "~2.2"
+  },
+  "devDependencies": {
+    "chai": "*",
+    "mocha": "*",
+    "sinon": "*",
+    "grunt": "~0.4",
+    "grunt-mocha-test": "*"
+  },
+  "optionalDependencies": {},
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  }
+}
